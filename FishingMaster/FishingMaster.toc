@@ -1,0 +1,29 @@
+## Interface: 120001, 120000, 50503, 38000, 20505, 11508
+## Title: FishingMaster |cff00ff00钓鱼高手|r
+## Notes: 钓鱼收益追踪插件，命令/ls
+## Author: xxxx66
+## Version: 1.0
+## SavedVariables: LootStatsDB
+
+# 渔友圈模块
+Libs/LibStub/LibStub.lua
+Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
+Libs/AceComm-3.0/AceComm-3.0.xml
+Libs/AceSerializer-3.0/AceSerializer-3.0.xml
+Comm/Protocol.lua
+Comm/PeerRegistry.lua
+Comm/CommCore.lua
+Comm/StatsSync.lua
+Comm/PublicAPI.lua
+UI/Style.lua
+UI/BasicPanel.lua
+
+QuickLoot.lua
+SmartMount.lua
+FishingMaster.lua
+UI/MainUI.lua
+UI/PageDashboard.lua
+UI/PageFriends.lua
+UI/PageStats.lua
+UI/PageSettings.lua
+UI/PageHelp.lua
